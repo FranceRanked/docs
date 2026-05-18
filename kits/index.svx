@@ -1,7 +1,0 @@
----
-title: Kits
-order: 6
-description: Les kits par mode
----
-
-# Kits

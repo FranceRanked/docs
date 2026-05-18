@@ -1,0 +1,31 @@
+---
+title: Badges
+---
+
+# Badges
+
+Les badges sont des recompenses visuelles qui apparaissent sur votre profil. Certains sont obtenus automatiquement, d'autres sont attribues par les administrateurs.
+
+## Types de badges
+
+### Badges automatiques
+
+Ces badges sont attribues automatiquement lorsque vous remplissez les conditions :
+
+- **Premier test** - Passer votre premier test de tier
+- **10 tests reussis** - Reussir 10 tests au total
+- **50 tests reussis** - Reussir 50 tests
+- **Testeur actif** - Effectuer 20 tests en tant que testeur
+- **Testeur expert** - Effectuer 100 tests en tant que testeur
+
+### Badges speciaux
+
+Attribues par l'equipe pour des contributions exceptionnelles :
+
+- **Contributeur** - Aide au developpement de la plateforme
+- **Evenement** - Participation a un evenement officiel
+- **Champion** - Victoire dans un tournoi officiel
+
+## Affichage
+
+Les badges apparaissent sur votre profil public sur la tierlist et dans votre carte Discord via la commande `/profile`.

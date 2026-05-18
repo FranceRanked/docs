@@ -1,0 +1,40 @@
+---
+title: Passer un test
+---
+
+# Passer un test
+
+Un test de tier est un match supervise par un testeur officiel. Voici comment ca se deroule.
+
+## Avant le test
+
+1. Rejoignez la **file d'attente** sur Discord dans le salon #queue
+2. Selectionnez le mode de jeu que vous voulez tester
+3. Attendez qu'un testeur disponible vous prenne en charge
+
+## Pendant le test
+
+- Le testeur cree un ticket prive pour votre session
+- Vous jouez plusieurs rounds sur le serveur designe
+- Le testeur observe votre gameplay et prend des notes
+- La duree varie selon le mode (generalement 10-20 minutes)
+
+## Apres le test
+
+- Le testeur annonce votre resultat dans le ticket
+- Si vous progressez, votre tier est mis a jour automatiquement
+- Vous recevez un message avec votre nouveau classement
+- Les points de test sont credites a votre profil
+
+## Regles
+
+- Un seul test par mode par jour
+- Vous ne pouvez pas tester dans un mode ou vous etes deja en test
+- Respectez le testeur et acceptez le resultat
+- Tout comportement toxique entraine une sanction
+
+## Conseils
+
+- Echauffez-vous avant de rejoindre la queue
+- Jouez normalement, pas besoin de forcer
+- Si vous ratez, vous pouvez retenter le lendemain

@@ -1,0 +1,27 @@
+---
+title: Modes de jeu
+---
+
+# Modes de jeu
+
+FranceRanked propose plusieurs modes de PvP Minecraft. Chaque mode a ses propres regles, kits, et criteres de tier.
+
+## Modes disponibles
+
+Les modes actifs sont affiches sur la [tierlist](https://franceranked.fr). Voici les principaux :
+
+- **Soup PvP** - PvP classique avec soups de regeneration
+- **UHC** - Ultra Hardcore, pas de regeneration naturelle
+- **Pot PvP** - PvP avec potions de soin
+- **SwordPvP** - Combat a l'epee uniquement
+- **Axe PvP** - Combat a la hache (1.9+)
+
+> La liste des modes evolue regulierement. De nouveaux modes peuvent etre ajoutes ou retires selon l'activite de la communaute.
+
+## Tiers par mode
+
+Chaque mode a son propre systeme de tiers independant. Votre tier en Soup PvP n'affecte pas votre tier en UHC. Cela permet une evaluation precise de votre niveau dans chaque discipline.
+
+## Testeurs par mode
+
+Les testeurs sont qualifies pour des modes specifiques. Un testeur Soup PvP ne peut pas vous tester en UHC (sauf s'il est aussi qualifie dans ce mode).

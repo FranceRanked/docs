@@ -1,0 +1,23 @@
+---
+title: Recompenses
+---
+
+# Recompenses
+
+Les recompenses sont debloques automatiquement en accumulant des points grace a votre activite.
+
+## Roles Discord
+
+| Palier | Role | Avantages |
+|--------|------|-----------|
+| 50 pts | Actif | Acces aux salons VIP, couleur de pseudo |
+| 150 pts | Veteran | Badge special, priorite dans la queue |
+| 500 pts | Legende | Role dore, mention dans le hall of fame |
+
+## Comment les points sont calcules
+
+Les points sont additionnes a partir de toutes vos actions sur la plateforme. Le total est mis a jour en temps reel.
+
+## Perte de points
+
+Les points ne peuvent pas etre perdus. Votre total ne fait qu'augmenter avec le temps. Cependant, les roles peuvent etre retires en cas de sanction grave.

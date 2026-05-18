@@ -1,7 +1,0 @@
----
-title: Modes
-order: 3
-description: Les modes de jeu disponibles
----
-
-# Modes

@@ -1,7 +1,0 @@
----
-title: Commencer
-order: 1
-description: Comment rejoindre FranceRanked
----
-
-# Commencer

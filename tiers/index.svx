@@ -1,7 +1,0 @@
----
-title: Tiers
-order: 2
-description: Le systeme de tiers HT/LT
----
-
-# Tiers

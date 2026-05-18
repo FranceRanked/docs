@@ -1,7 +1,0 @@
----
-title: Points
-order: 4
-description: Le systeme de points
----
-
-# Points

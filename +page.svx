@@ -1,0 +1,76 @@
+---
+title: Accueil
+---
+
+<script>
+	import TierBadge from "$lib/components/TierBadge.svelte";
+	import Icon from "$lib/components/Icon.svelte";
+</script>
+
+# Documentation FranceRanked
+
+Votre guide complet pour le PvP Minecraft competitif en France. Apprenez a passer vos tests, progresser dans les tiers, et grimper les classements ranked.
+
+---
+
+<div class="not-prose mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+	<a href="/commencer" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.04s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="zap" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Commencer</span>
+			<span class="doc-card-desc">Rejoindre le serveur, lier votre compte Minecraft et passer votre premier test.</span>
+		</div>
+	</a>
+
+	<a href="/tiers" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.07s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="trophy" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Tiers</span>
+			<span class="doc-card-desc">Le systeme de classement, de <TierBadge tier={5} position="low" /> a <TierBadge tier={1} position="high" />.</span>
+		</div>
+	</a>
+
+	<a href="/ranked" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.10s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="bar-chart" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Ranked</span>
+			<span class="doc-card-desc">Matchmaking ELO, matchs de placement, saisons et leaderboards.</span>
+		</div>
+	</a>
+
+	<a href="/modes" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.13s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="swords" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Modes de jeu</span>
+			<span class="doc-card-desc">Soup PvP, UHC, Pot, Sword, Axe et les autres modes disponibles.</span>
+		</div>
+	</a>
+
+	<a href="/points" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.16s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="star" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Points & Badges</span>
+			<span class="doc-card-desc">Accumuler des points, debloquer des recompenses et collectionner des badges.</span>
+		</div>
+	</a>
+
+	<a href="/kits" class="doc-card" style="animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1) 0.19s both;">
+		<div class="doc-card-img" style="background: var(--color-surface2);">
+			<Icon name="package" size={32} class="text-[var(--color-text-muted)]" />
+		</div>
+		<div class="doc-card-body">
+			<span class="doc-card-title">Kits</span>
+			<span class="doc-card-desc">Inventaires Minecraft interactifs pour chaque mode de jeu.</span>
+		</div>
+	</a>
+</div>

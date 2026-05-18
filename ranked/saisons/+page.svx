@@ -1,0 +1,29 @@
+---
+title: Saisons
+---
+
+# Saisons
+
+Le ranked fonctionne par saisons d'une duree determinee. Chaque saison est un nouveau depart.
+
+## Deroulement
+
+1. **Debut de saison** - Tous les ELO sont reinitialises a 1000
+2. **Placements** - 10 matchs de placement pour calibrer votre niveau
+3. **Saison active** - Grimpez le classement, gagnez des points
+4. **Fin de saison** - Classement final fige, recompenses distribuees
+
+## Recompenses de saison
+
+A la fin de chaque saison, les meilleurs joueurs recoivent :
+- Badge de saison avec leur rang final
+- Points bonus selon leur classement
+- Mention dans le leaderboard historique
+
+## Duree
+
+Les saisons durent generalement 1 a 2 mois. La duree exacte est annoncee au debut de chaque saison sur Discord.
+
+## Historique
+
+Votre historique de saisons est conserve sur votre profil. Vous pouvez voir vos performances passees via la commande `/ranked stats`.

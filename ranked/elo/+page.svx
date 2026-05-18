@@ -1,0 +1,40 @@
+---
+title: Systeme ELO
+---
+
+# Systeme ELO
+
+L'ELO est un systeme de classement mathematique qui mesure votre niveau relatif aux autres joueurs.
+
+## Calcul
+
+Le gain ou la perte d'ELO depend de :
+- **Votre ELO actuel** - Plus vous etes haut, moins vous gagnez
+- **L'ELO de l'adversaire** - Battre un joueur mieux classe rapporte plus
+- **Facteur K** - Multiplicateur qui diminue apres les placements
+
+## Formule simplifiee
+
+```
+Gain = K * (Resultat - Attendu)
+```
+
+Ou :
+- K = 40 pendant les placements, 20 apres
+- Resultat = 1 (victoire) ou 0 (defaite)
+- Attendu = probabilite de victoire basee sur la difference d'ELO
+
+## Exemples
+
+| Situation | Gain approx. |
+|-----------|-------------|
+| Victoire contre +200 ELO | +28 |
+| Victoire contre meme ELO | +20 |
+| Victoire contre -200 ELO | +12 |
+| Defaite contre +200 ELO | -12 |
+| Defaite contre meme ELO | -20 |
+| Defaite contre -200 ELO | -28 |
+
+## ELO de depart
+
+Tous les joueurs commencent a 1000 ELO au debut de chaque saison.

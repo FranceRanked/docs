@@ -1,0 +1,32 @@
+---
+title: Conditions par tier
+---
+
+# Conditions par tier
+
+Chaque tier a des criteres specifiques que le testeur evalue pendant votre test. Voici les grandes lignes de ce qui est attendu a chaque niveau.
+
+## Criteres generaux
+
+- **Mecanique** - Precision des clics, strafing, combos
+- **Game sense** - Positionnement, timing, gestion des ressources
+- **Regularite** - Capacite a maintenir son niveau sur plusieurs rounds
+
+## Par tier
+
+### HT1-LT1 (Elite)
+Maitrise complete du mode. Mouvements fluides, peu d'erreurs, capacite a s'adapter a tout adversaire. Victoire reguliere contre des HT2.
+
+### HT2-LT2 (Confirme)
+Tres bon niveau technique. Bonne lecture du jeu, combos reguliers. Peut battre des HT3 facilement.
+
+### HT3-LT3 (Intermediaire)
+Bases solides. Connait les mecaniques principales et les applique correctement. En progression constante.
+
+### HT4-LT4 (Debutant+)
+Comprend les bases du PvP. Quelques lacunes techniques mais montre du potentiel.
+
+### HT5-LT5 (Debutant)
+Nouveau dans le PvP competitif. Apprend les mecaniques de base.
+
+> Les criteres exacts varient selon le mode de jeu. Consultez la page de chaque mode pour les details specifiques.

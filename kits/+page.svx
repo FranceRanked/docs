@@ -1,0 +1,70 @@
+---
+title: Kits
+---
+
+<script>
+	import Inventory from "$lib/components/Inventory.svelte";
+
+	const exampleKit = [
+		{ slot: 0, id: "diamond_sword", enchants: ["Sharpness V", "Unbreaking III", "Fire Aspect II"] },
+		{ slot: 1, id: "bow", enchants: ["Power V", "Infinity I"] },
+		{ slot: 2, id: "golden_apple", count: 8 },
+		{ slot: 3, id: "ender_pearl", count: 16 },
+		{ slot: 4, id: "cobblestone", count: 64 },
+		{ slot: 5, id: "oak_planks", count: 64 },
+		{ slot: 6, id: "cooked_beef", count: 64 },
+		{ slot: 7, id: "potion_of_strength", count: 3 },
+		{ slot: 8, id: "potion_of_healing", count: 3 },
+		{ slot: 9, id: "arrow", count: 16 },
+		{ slot: 10, id: "cobblestone", count: 64 },
+		{ slot: 11, id: "oak_planks", count: 64 },
+		{ slot: 12, id: "sand", count: 64 },
+		{ slot: 13, id: "glass", count: 32 },
+		{ slot: 14, id: "golden_apple", count: 8 },
+		{ slot: 15, id: "cooked_beef", count: 64 },
+		{ slot: 16, id: "obsidian", count: 16 },
+		{ slot: 17, id: "crossbow", enchants: ["Quick Charge III", "Multishot"] },
+		{ slot: 18, id: "iron_sword", enchants: ["Knockback II"] },
+		{ slot: 19, id: "trident", enchants: ["Riptide III", "Loyalty III"] },
+		{ slot: 20, id: "fishing_rod" },
+		{ slot: 21, id: "totem_of_undying" },
+		{ slot: 22, id: "tnt", count: 4 },
+		{ slot: 23, id: "flint_and_steel" },
+		{ slot: 24, id: "water_bucket" },
+		{ slot: 25, id: "experience_bottle", count: 16 },
+		{ slot: 26, id: "enchanted_golden_apple" },
+		{ slot: 103, id: "diamond_helmet", enchants: ["Protection IV", "Unbreaking III", "Respiration III"] },
+		{ slot: 102, id: "diamond_chestplate", enchants: ["Protection IV", "Unbreaking III"] },
+		{ slot: 101, id: "diamond_leggings", enchants: ["Protection IV", "Unbreaking III"] },
+		{ slot: 100, id: "diamond_boots", enchants: ["Protection IV", "Feather Falling IV", "Depth Strider III"] },
+		{ slot: 40, id: "shield", enchants: ["Unbreaking III"] },
+	];
+</script>
+
+# Kits
+
+Chaque mode de jeu utilise un kit specifique (inventaire predetermine). Les kits sont identiques pour tous les joueurs lors d'un test ou d'un match ranked.
+
+## Exemple de kit
+
+Voici a quoi ressemble un kit type. Survolez les items pour voir les details :
+
+<Inventory items={exampleKit} />
+
+## Structure d'un kit
+
+- **Armure** (colonne gauche) : Casque, plastron, jambieres, bottes avec enchantements
+- **Main hand** : Arme principale dans le premier slot de hotbar
+- **Hotbar** (ligne du bas) : Items rapides comme nourriture, perles, blocs
+- **Inventaire** (grille 9x3) : Items supplementaires
+- **Offhand** (a droite) : Bouclier ou item secondaire
+
+## Modifications autorisees
+
+Selon le mode, certaines modifications sont autorisees :
+
+- Reorganiser les items dans la hotbar
+- Changer les raccourcis clavier
+- Modifier l'ordre des potions
+
+> Les kits specifiques a chaque mode sont detailles dans les pages de mode respectives.

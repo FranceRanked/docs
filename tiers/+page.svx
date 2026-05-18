@@ -1,0 +1,46 @@
+---
+title: Systeme de tiers
+---
+
+<script>
+	import TierBadge from "$lib/components/TierBadge.svelte";
+	import TierCard from "$lib/components/TierCard.svelte";
+</script>
+
+# Systeme de tiers
+
+Le systeme de tiers classe les joueurs selon leur niveau de competence dans chaque mode de jeu. Chaque tier est divise en deux positions : **High Tier (HT)** et **Low Tier (LT)**.
+
+## Les tiers
+
+Du plus eleve au plus bas :
+
+| Tier | Description |
+|------|-------------|
+| <TierBadge tier={1} position="high" /> | Elite - les meilleurs joueurs |
+| <TierBadge tier={1} position="low" /> | Excellent niveau |
+| <TierBadge tier={2} position="high" /> | Tres bon niveau |
+| <TierBadge tier={2} position="low" /> | Bon niveau confirme |
+| <TierBadge tier={3} position="high" /> | Niveau intermediaire+ |
+| <TierBadge tier={3} position="low" /> | Niveau intermediaire |
+| <TierBadge tier={4} position="high" /> | En progression |
+| <TierBadge tier={4} position="low" /> | Debutant confirme |
+| <TierBadge tier={5} position="high" /> | Debutant |
+| <TierBadge tier={5} position="low" /> | Nouveau joueur |
+
+## Exemple de profils
+
+Voici a quoi ressemble une carte de joueur avec son tier :
+
+<div class="not-prose mt-4 mb-6 flex flex-wrap gap-3">
+	<TierCard player="Origaming_" />
+	<TierCard player="Toffeta" />
+</div>
+
+## Comment progresser ?
+
+Pour monter de tier, vous devez passer un test avec un testeur qualifie. Le testeur evaluera votre niveau en match et determinera si vous meritez un tier superieur.
+
+## Tiers par mode
+
+Chaque mode de jeu a ses propres tiers. Un joueur peut etre HT2 en Soup PvP et LT3 en UHC par exemple. Les tiers sont independants entre les modes.
