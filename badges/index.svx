@@ -1,0 +1,7 @@
+---
+title: Badges
+order: 5
+description: Les badges et comment les obtenir
+---
+
+# Badges

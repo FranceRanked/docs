@@ -1,0 +1,7 @@
+---
+title: Ranked
+order: 7
+description: Le systeme ranked et ELO
+---
+
+# Ranked
