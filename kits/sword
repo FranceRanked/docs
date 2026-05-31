@@ -1,0 +1,16 @@
+**Kit de test en Sword**
+Armure : Protection 3
+Epée : Sweeping Edge 3
+
+**Règles de Testing**
+*Ces règles doivent être appliquées pour toutes les formes de tests.*
+- Le test d'évaluation se fait en FT6
+- Pour passer l'évaluation, la personne testée doit gagner 6-3 ou mieux face au testeur. Tout autre score sera au choix du testeur.
+- Avoir un score égal lors d'une évaluation contre un testeur LT3 vous garanti LT3 (score égal étant minimum avoir 4 manches lors du FT6)
+- Les Test HT3+ se font en FT10
+- Courir indéfiniment lors du test est interdit
+- Les Test Tier 1 se font en FT20
+- Vous ne pouvez pas attaquer délibérément les joueurs lorsqu'ils laggent.
+- Vous ne pouvez pas attaquer les joueurs pendant qu'ils sont AFK.
+- Dans le cas où un des deux joueurs déconnecte/le serveur crash, celui avec le plus de vie remporte la manche.
+- L'activation de la régénération naturelle dépend du choix des deux joueurs. Par défaut, elle est activée. Si les DEUX joueurs ne la veulent pas, ils sont libres de la désactiver.
