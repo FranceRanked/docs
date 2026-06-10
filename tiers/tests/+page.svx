@@ -21,7 +21,7 @@ Il existe plusieurs moyens de se classer sur FranceRanked :
 
 Pour acceder au rang <TierBadge tier={3} position="high" />, deux voies sont possibles :
 
-- **Par le testing** : Battez votre testeur avec un score suffisant. Si vous gagnez, un HT3 vous sera assigne et vous devrez mettre un minimum de manches pour passer (le nombre varie selon le mode).
+- **Par le testing** : Les criteres specifiques varient selon le format du mode (voir ci-dessous dans chaque section).
 - **Par le systeme d'Elo** (en cours de developpement)
 
 ## Modes FT4 (First to 4)
@@ -50,6 +50,11 @@ Les modes **Mace**, **Vanilla**, **SMP**, **Diamond SMP** et **Netherite Pot** u
 1. Battre deux adversaires du meme tier avec un score minimum de 8-5.
 2. Battre deux joueurs du tier vise avec un score final egal (7-7).
 
+### Tester pour <TierBadge tier={3} position="high" /> (FT4)
+
+1. Battre votre testeur 3-1 ou mieux. Si vous gagnez 3-2, la decision revient au testeur de decider si vous poursuivez votre tiertest.
+2. Un HT3 vous sera assigne et vous devez mettre minimum trois manches (3-4) pour passer.
+
 ## Modes FT10 (First to 10)
 
 Les modes **Sword** et **UHC** utilisent le format FT10 :
@@ -75,6 +80,11 @@ Les modes **Sword** et **UHC** utilisent le format FT10 :
 
 1. Battre deux adversaires du meme tier sans perdre plus de 7 rounds (FT10).
 2. Battre deux joueurs du tier vise avec un score total final egal (FT10).
+
+### Tester pour <TierBadge tier={3} position="high" /> (FT10)
+
+1. Battre votre testeur 6-3 ou mieux. Si vous gagnez face a un HT3 avec n'importe quel score, vous pouvez continuer votre tiertest.
+2. Un HT3 vous sera assigne et vous devez mettre minimum huit manches (8-10) pour passer.
 
 ## Mode FT15 (First to 15)
 
@@ -102,6 +112,11 @@ Le mode **Pot** utilise le format FT15 :
 1. Battre deux adversaires du meme tier sans perdre plus de 6 rounds (FT10).
 2. Battre deux joueurs du tier vise avec un score total final egal (FT15).
 
+### Tester pour <TierBadge tier={3} position="high" /> (FT15)
+
+1. Battre votre testeur 5-2 ou mieux. Si vous gagnez face a un HT3 avec n'importe quel score, vous pouvez continuer votre tiertest.
+2. Un HT3 vous sera assigne et vous devez mettre minimum huit manches (8-10) pour passer.
+
 ## Test rate
 
 Rater un test declenche une periode d'attente de 14 jours.
@@ -113,3 +128,5 @@ Si vous ratez votre test face a un joueur qui est passe au rang superieur 7 jour
 En cas de manque de joueurs, la decision finale revient au staff. En general, le joueur du tier manquant est compense avec deux joueurs du tier inferieur.
 
 *Exemple : si un HT2 vient a manquer, il sera compense avec 2 LT2.*
+
+Les situations plus delicates et irresolvables par cette methode seront administrees par l'equipe de Superviseur et au-dessus.
