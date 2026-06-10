@@ -17,7 +17,7 @@ Du plus eleve au plus bas :
 
 | Tier | Description |
 |------|-------------|
-| <TierBadge tier={1} position="high" /> | Elite - les meilleurs joueurs |
+| <TierBadge tier={1} position="high" /> | Elite |
 | <TierBadge tier={1} position="low" /> | Excellent niveau |
 | <TierBadge tier={2} position="high" /> | Tres bon niveau |
 | <TierBadge tier={2} position="low" /> | Bon niveau confirme |
@@ -30,17 +30,31 @@ Du plus eleve au plus bas :
 
 ## Exemple de profils
 
-Voici a quoi ressemble une carte de joueur avec son tier :
-
 <div class="not-prose mt-4 mb-6 flex flex-wrap gap-3">
 	<TierCard player="Origaming_" />
 	<TierCard player="Toffeta" />
 </div>
 
-## Comment progresser ?
-
-Pour monter de tier, vous devez passer un test avec un testeur qualifie. Le testeur evaluera votre niveau en match et determinera si vous meritez un tier superieur.
-
 ## Tiers par mode
 
-Chaque mode de jeu a ses propres tiers. Un joueur peut etre HT2 en Soup PvP et LT3 en UHC par exemple. Les tiers sont independants entre les modes.
+Chaque mode de jeu a ses propres tiers independants. Un joueur peut etre HT2 en Sword et LT3 en UHC par exemple.
+
+## Peak Tier
+
+Le **Peak Tier** represente le rang le plus haut qu'un joueur ait atteint. Il suffit d'avoir eu le tier une fois pour etre eligible au Peak Tier, sauf pour les rangs LT2 et au-dessus.
+
+Pour les rangs LT2+, des criteres supplementaires s'appliquent :
+
+- 2 defenses de rang + conservation du tier pendant 30 jours
+- 1 defense de rang + conservation du tier pendant 45 jours
+- Conservation du tier pendant 65 jours
+- Alternativement, un joueur peut recevoir le Peak Tier au rang inferieur au sien (un LT1 recoit automatiquement le Peak HT2)
+
+## Retirement
+
+Un joueur peut se retirer du competitif tout en conservant son Peak Tier. Les conditions sont :
+
+- Avoir le Peak Tier
+- Plus de 15 jours doivent s'etre ecoules depuis votre dernier test en competitif
+
+Un joueur retire ne pourra pas reprendre le competitif dans le mode concerne avant 30 jours.

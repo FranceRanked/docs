@@ -1,32 +1,81 @@
 ---
-title: Conditions par tier
+title: Conditions et regles
 ---
 
-# Conditions par tier
+# Conditions et regles
 
-Chaque tier a des criteres specifiques que le testeur evalue pendant votre test. Voici les grandes lignes de ce qui est attendu a chaque niveau.
+Voici les regles en vigueur pour le competitif de FranceRanked, incluant les modifications autorisees, les sanctions et les mesures de securite.
 
-## Criteres generaux
+## Eligibilite
 
-- **Mecanique** - Precision des clics, strafing, combos
-- **Game sense** - Positionnement, timing, gestion des ressources
-- **Regularite** - Capacite a maintenir son niveau sur plusieurs rounds
+Afin de participer au competitif de FranceRanked, il faut imperativement remplir ces conditions :
 
-## Par tier
+- Pouvoir communiquer couramment en francais (condition validee a la discretion du staff)
+- Avoir un compte Minecraft Java (comptes cracks interdits)
+- Ne pas etre blacklist
 
-### HT1-LT1 (Elite)
-Maitrise complete du mode. Mouvements fluides, peu d'erreurs, capacite a s'adapter a tout adversaire. Victoire reguliere contre des HT2.
+## Modifications autorisees
 
-### HT2-LT2 (Confirme)
-Tres bon niveau technique. Bonne lecture du jeu, combos reguliers. Peut battre des HT3 facilement.
+- Armor HUD
+- Potion HUD
+- Saturation HUD
+- Inventory HUD
+- Health Indicator
+- Shield Status Mod
+- Mods de performances (Sodium, Optifine, etc.)
+- ExitLag
+- Packs de textures ameliorant la qualite de vie (Low Shield, Low Fire, Smaller Utilities, etc.)
+- Packs de textures cosmetiques n'apportant aucun avantage
 
-### HT3-LT3 (Intermediaire)
-Bases solides. Connait les mecaniques principales et les applique correctement. En progression constante.
+## Modifications interdites
 
-### HT4-LT4 (Debutant+)
-Comprend les bases du PvP. Quelques lacunes techniques mais montre du potentiel.
+- Mods de triche flagrants
+- MouseTweaks
+- Item Scroller
+- Tweakaroo
+- Freelook
+- Regedits
+- Snap Taps
+- Macros
+- Golden Apple Indicator
+- Minimaps
+- Packs de textures offrant un avantage (XRay, packs montrant la durabilite des armures, etc.)
 
-### HT5-LT5 (Debutant)
-Nouveau dans le PvP competitif. Apprend les mecaniques de base.
+> Cette liste n'est pas exhaustive. Toute modification apportant un avantage competitif peut etre interdite et entrainer une sanction permanente sans avertissement. En cas de doute, contactez un membre du staff.
 
-> Les criteres exacts varient selon le mode de jeu. Consultez la page de chaque mode pour les details specifiques.
+## Sanctions
+
+Il existe deux types de sanctions competitives :
+
+### Restriction
+
+Une restriction est appliquee pour les infractions suivantes :
+
+- Mentir sur votre region
+- Tester avec un alt ou le compte de quelqu'un d'autre
+- Laisser un autre utilisateur tester sur votre compte
+- Mentir sur les scores ou resultats
+- Contourner ou mentir sur votre cooldown pour les tests
+- Enfreindre a plusieurs reprises les regles listees ci-dessus
+- Triche flagrante comme le fly (ban de 3 mois ; doit etre flagrante pour 100% des joueurs)
+- Ping spoofing (les VPN et ExitLag pour un meilleur routage sont autorises, le ping spoofing intentionnel est interdit)
+- Utilisation d'un mod prive avantageux (mod non publie, code pour soi-meme ou paye a un developpeur sans le publier)
+- Triche de quelconque maniere (macros, mods, ping spoof, etc.)
+
+### Blacklist
+
+Un blacklist permanent est applique pour :
+
+- Dox ou menaces de dox
+- DDoS ou menaces de DDoS
+- Harcelement sexuel
+
+> D'autres raisons peuvent justifier un blacklist.
+
+## Mesures de securite
+
+En test **LT2**, il est obligatoire de soit enregistrer (record), soit partager son ecran (screenshare) a un membre du staff qualifie (Moderateur ou superieur).
+
+En test **HT2 et au-dela**, il est imperatif d'enregistrer **et** de partager son ecran a un membre du staff de confiance (Superviseur ou superieur).
+
+Le non-respect de ces conditions peut entrainer une disqualification du combat ou du test. Ces regles s'appliquent autant pour la personne testee que pour le testeur.

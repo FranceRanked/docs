@@ -4,24 +4,35 @@ title: Modes de jeu
 
 # Modes de jeu
 
-FranceRanked propose plusieurs modes de PvP Minecraft. Chaque mode a ses propres regles, kits, et criteres de tier.
+FranceRanked propose plusieurs modes de PvP Minecraft. Chaque mode a ses propres regles, kits et criteres de test. Les tiers sont independants d'un mode a l'autre.
 
-## Modes disponibles
+## Modes FT4
 
-Les modes actifs sont affiches sur la [tierlist](https://franceranked.fr). Voici les principaux :
+Les modes suivants utilisent un format First to 4 (premier a 4 rounds) :
 
-- **Soup PvP** - PvP classique avec soups de regeneration
+- **Mace** - Combat a la masse
+- **Vanilla** - PvP classique vanilla
+- **SMP** - Kit SMP standard
+- **Diamond SMP** - Kit SMP en diamant
+- **Netherite Pot** - Kit netherite avec potions
+
+## Modes FT10
+
+- **Sword** - Combat a l'epee
 - **UHC** - Ultra Hardcore, pas de regeneration naturelle
-- **Pot PvP** - PvP avec potions de soin
-- **SwordPvP** - Combat a l'epee uniquement
-- **Axe PvP** - Combat a la hache (1.9+)
+
+## Modes FT15
+
+- **Pot** - PvP avec potions de soin
+
+## Autres modes
+
+- **Axe** - Combat a la hache
 
 > La liste des modes evolue regulierement. De nouveaux modes peuvent etre ajoutes ou retires selon l'activite de la communaute.
 
-## Tiers par mode
-
-Chaque mode a son propre systeme de tiers independant. Votre tier en Soup PvP n'affecte pas votre tier en UHC. Cela permet une evaluation precise de votre niveau dans chaque discipline.
-
 ## Testeurs par mode
 
-Les testeurs sont qualifies pour des modes specifiques. Un testeur Soup PvP ne peut pas vous tester en UHC (sauf s'il est aussi qualifie dans ce mode).
+Les testeurs sont qualifies pour des modes specifiques. Un testeur Sword ne peut pas vous tester en UHC (sauf s'il est aussi qualifie dans ce mode).
+
+Consultez la page [Tests de tier](/tiers/tests) pour voir les conditions de passage specifiques a chaque mode.

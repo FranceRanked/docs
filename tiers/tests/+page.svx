@@ -1,40 +1,115 @@
 ---
-title: Passer un test
+title: Tests de tier
 ---
 
-# Passer un test
+<script>
+	import TierBadge from "$lib/components/TierBadge.svelte";
+</script>
 
-Un test de tier est un match supervise par un testeur officiel. Voici comment ca se deroule.
+# Tests de tier
 
-## Avant le test
+Les tests de tier permettent de monter en rang dans chaque mode de jeu. Chaque passage de tier comporte plusieurs etapes successives que le joueur doit reussir.
 
-1. Rejoignez la **file d'attente** sur Discord dans le salon #queue
-2. Selectionnez le mode de jeu que vous voulez tester
-3. Attendez qu'un testeur disponible vous prenne en charge
+## Se classer pour la premiere fois
 
-## Pendant le test
+Il existe plusieurs moyens de se classer sur FranceRanked :
 
-- Le testeur cree un ticket prive pour votre session
-- Vous jouez plusieurs rounds sur le serveur designe
-- Le testeur observe votre gameplay et prend des notes
-- La duree varie selon le mode (generalement 10-20 minutes)
+- **Par le testing** : Rejoignez le salon file d'attente de test et attendez qu'un testeur soit present. Un ticket sera ouvert lorsque ce sera votre tour.
+- **Par le systeme d'Elo** (en cours de developpement)
 
-## Apres le test
+## Tester pour HT3
 
-- Le testeur annonce votre resultat dans le ticket
-- Si vous progressez, votre tier est mis a jour automatiquement
-- Vous recevez un message avec votre nouveau classement
-- Les points de test sont credites a votre profil
+Pour acceder au rang <TierBadge tier={3} position="high" />, deux voies sont possibles :
 
-## Regles
+- **Par le testing** : Battez votre testeur avec un score suffisant. Si vous gagnez, un HT3 vous sera assigne et vous devrez mettre un minimum de manches pour passer (le nombre varie selon le mode).
+- **Par le systeme d'Elo** (en cours de developpement)
 
-- Un seul test par mode par jour
-- Vous ne pouvez pas tester dans un mode ou vous etes deja en test
-- Respectez le testeur et acceptez le resultat
-- Tout comportement toxique entraine une sanction
+## Modes FT4 (First to 4)
 
-## Conseils
+Les modes **Mace**, **Vanilla**, **SMP**, **Diamond SMP** et **Netherite Pot** utilisent le format FT4 :
 
-- Echauffez-vous avant de rejoindre la queue
-- Jouez normalement, pas besoin de forcer
-- Si vous ratez, vous pouvez retenter le lendemain
+### <TierBadge tier={1} position="low" /> vers <TierBadge tier={1} position="high" />
+
+1. Battre un adversaire du tier inferieur en ayant au minimum le double de son score.
+2. Battre deux adversaires du meme tier avec un score de 8-5 ou mieux.
+3. Battre le joueur HT1. Gagner est imperatif pour recevoir le rang.
+
+### <TierBadge tier={2} position="high" /> vers <TierBadge tier={1} position="low" />
+
+1. Battre un adversaire du tier inferieur en ayant au minimum le double de son score.
+2. Battre deux adversaires du meme tier avec un score de 8-5 ou mieux.
+3. Battre deux joueurs du tier vise avec un score final egal (7-7).
+
+### <TierBadge tier={2} position="low" /> vers <TierBadge tier={2} position="high" />
+
+1. Battre deux adversaires du meme tier avec un score de 8-5 ou mieux.
+2. Battre deux joueurs du tier vise avec un score final egal (7-7).
+
+### <TierBadge tier={3} position="high" /> vers <TierBadge tier={2} position="low" />
+
+1. Battre deux adversaires du meme tier avec un score minimum de 8-5.
+2. Battre deux joueurs du tier vise avec un score final egal (7-7).
+
+## Modes FT10 (First to 10)
+
+Les modes **Sword** et **UHC** utilisent le format FT10 :
+
+### <TierBadge tier={1} position="low" /> vers <TierBadge tier={1} position="high" />
+
+1. Battre un adversaire du tier inferieur en ne lui laissant pas mettre plus de 6 rounds (FT10).
+2. Battre deux adversaires du meme tier avec un score total de 20-14 ou mieux (FT10).
+3. Battre le joueur HT1. Gagner est imperatif pour recevoir le rang (FT20).
+
+### <TierBadge tier={2} position="high" /> vers <TierBadge tier={1} position="low" />
+
+1. Battre un adversaire du tier inferieur en ayant au minimum le double de son score (FT10).
+2. Battre deux adversaires du meme tier avec un score total de 20-14 ou mieux (FT10).
+3. Battre deux joueurs du tier vise avec un score final egal. Minimum 16 rounds par adversaire (FT10).
+
+### <TierBadge tier={2} position="low" /> vers <TierBadge tier={2} position="high" />
+
+1. Battre deux adversaires du meme tier avec un score de 20-14 ou mieux (FT10).
+2. Battre deux joueurs du tier vise avec un score total final egal ou mieux. Minimum 7 rounds par adversaire (FT10).
+
+### <TierBadge tier={3} position="high" /> vers <TierBadge tier={2} position="low" />
+
+1. Battre deux adversaires du meme tier sans perdre plus de 7 rounds (FT10).
+2. Battre deux joueurs du tier vise avec un score total final egal (FT10).
+
+## Mode FT15 (First to 15)
+
+Le mode **Pot** utilise le format FT15 :
+
+### <TierBadge tier={1} position="low" /> vers <TierBadge tier={1} position="high" />
+
+1. Battre un adversaire du tier inferieur en ne lui laissant pas mettre plus de 10 rounds (FT15).
+2. Battre deux adversaires du meme tier avec un score total de 30-22 ou mieux (FT15).
+3. Battre le joueur HT1. Gagner est imperatif pour recevoir le rang (FT15).
+
+### <TierBadge tier={2} position="high" /> vers <TierBadge tier={1} position="low" />
+
+1. Battre un adversaire du tier inferieur en ayant au minimum le double de son score (FT15).
+2. Battre deux adversaires du meme tier avec un score total de 30-22 ou mieux (FT15).
+3. Battre deux joueurs du tier vise avec un score final egal. Minimum 10 rounds par adversaire (FT15).
+
+### <TierBadge tier={2} position="low" /> vers <TierBadge tier={2} position="high" />
+
+1. Battre deux adversaires du meme tier avec un score de 30-20 ou mieux (FT15).
+2. Battre deux joueurs du tier vise avec un score total final egal ou mieux. Minimum 10 rounds par adversaire (FT15).
+
+### <TierBadge tier={3} position="high" /> vers <TierBadge tier={2} position="low" />
+
+1. Battre deux adversaires du meme tier sans perdre plus de 6 rounds (FT10).
+2. Battre deux joueurs du tier vise avec un score total final egal (FT15).
+
+## Test rate
+
+Rater un test declenche une periode d'attente de 14 jours.
+
+Si vous ratez votre test face a un joueur qui est passe au rang superieur 7 jours ou moins apres votre defaite et que le score est suffisant, votre test sera reouvert.
+
+## Manque de joueurs
+
+En cas de manque de joueurs, la decision finale revient au staff. En general, le joueur du tier manquant est compense avec deux joueurs du tier inferieur.
+
+*Exemple : si un HT2 vient a manquer, il sera compense avec 2 LT2.*
